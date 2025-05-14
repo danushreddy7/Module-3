@@ -10,8 +10,20 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-Add code here
+```
+my_tuple = ('a', 'b', 'n', 3, 8, 'z')
+element1 = 'n'
+element2 = 8
+if element1 in my_tuple and element2 in my_tuple:
+    print(f"Both '{element1}' and {element2} are present in the tuple.")
+else:
+    print(f"Either '{element1}', {element2}, or both are not present in the tuple.")
+```
+## Output: 
+```
+       Input                                              Result
 
-## Output
-
-## Result
+('a', 'b', 'n', 3, 8, 'z')                  Both 'n' and 8 are present in the tuple
+```
+## Result:
+The program was successful.
