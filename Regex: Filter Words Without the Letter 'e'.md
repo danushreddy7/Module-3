@@ -16,24 +16,15 @@ To write a Python program that filters out and returns all elements from a list 
 ## 🧾 Program:
 ```
 import re
-words = ["apple", "banana", "cherry", "fig", "grape", "kiwi", "mango"]
-def filter_without_e(word_list):
-    # Match only words that do NOT contain 'e' (case-insensitive)
-    pattern = re.compile(r'^[^eE]*$')
-    return [word for word in word_list if pattern.match(word)]
-filtered_words = filter_without_e(words)
-print("Words without the letter 'e':", filtered_words)
+l1 = []
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+for i in items:
+    if not re.search(r"e", i):
+        l1.append(i)
+print("Words without 'e':", l1)
 ```
 ## Output:
-```
-     Input                  Result
-apple 
-banana
-cherry
-fig                        Words without the letter 'e': ['banana', 'fig', 'kiwi', 'mango']
-grape
-kiwi
-mango
-```
+<img width="500" height="147" alt="449555425-24d6bf6b-855d-432b-a0f3-25a78eb5b315" src="https://github.com/user-attachments/assets/add3e804-6b9e-4eb5-971e-2073fb964ef9" />
+
 ## Result:
 The program  was successful.
