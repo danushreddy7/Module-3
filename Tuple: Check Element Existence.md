@@ -11,19 +11,12 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 
 ## 🧾 Program
 ```
-my_tuple = ('a', 'b', 'n', 3, 8, 'z')
-element1 = 'n'
-element2 = 8
-if element1 in my_tuple and element2 in my_tuple:
-    print(f"Both '{element1}' and {element2} are present in the tuple.")
-else:
-    print(f"Either '{element1}', {element2}, or both are not present in the tuple.")
+tuplex = input()
+print("n" in tuplex)
+print("8" in tuplex)
 ```
 ## Output: 
-```
-       Input                                              Result
+<img width="540" height="162" alt="449555861-864049b4-e63c-4356-8d3e-825b3682d046" src="https://github.com/user-attachments/assets/2d5160e9-368a-459f-8cdd-7320b87f4632" />
 
-('a', 'b', 'n', 3, 8, 'z')                  Both 'n' and 8 are present in the tuple
-```
 ## Result:
 The program was successful.
